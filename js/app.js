@@ -33,7 +33,7 @@ function mostrar(){
 }
 
 var btn_mostrar=document.getElementById("btn_mostrar");
-btn_mostrar.addEventListener("click",mostrar);
+btn_mostrar.addEventListener("click",ocultar);
 function ocultar(){
 	var div_mostrar=document.getElementById("div_mostrar");
 	div_mostrar.style.display="none";
