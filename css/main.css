@@ -1,0 +1,133 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white;
+  padding: 70px;
+
+}
+.btn-home{
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 100px;
+  padding: 11px 20px;
+  text-transform: uppercase;
+
+}
+#services{
+  background-color: #F78181;
+  color: #fff;
+  padding: 50px;
+}
+.img-circulos div{
+  display: inline-block;
+  margin: 20px 100px 0px 0px;
+}
+.img-circulos img{
+
+  width: 180px;
+  height: 180px;
+
+  }
+  #work{
+    position: relative;
+background-color: #fff;
+padding: 5px;
+  }
+
+  #img4 img{
+    width: 700px;
+    height: 700px;
+  }
+  #productos{
+    position: absolute;
+  }
+  #productos div{
+    display: inline-block;
+    margin: 0px 5px 10px 50px;
+  }
+ #productos div img{
+width: 350px;
+height: 350px;
+
+ }
+ #div_mostrar{
+  width: 100%;
+  height: 100%;
+margin-top: 50px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-color: #F78181;
+
+ }
+ #div_mostrar img{
+width: 400px;
+height: 400px;
+ }
+footer{
+position: absolute;
+  background-color: #F78181;
+  width: 100%;
+  margin-top:80%;
+  padding: 2px;
+
+}
