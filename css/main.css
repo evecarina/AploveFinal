@@ -123,6 +123,18 @@ margin-top: 50px;
 width: 400px;
 height: 400px;
  }
+ #btn_mostrar{
+  position: absolute;
+  margin-top: 15px;
+  float: right;
+  margin-left:12%;
+  z-index: 1;
+ }
+ #img_mostrar{
+  margin-left:10%;
+  border-color: #fff;
+ }
+
 footer{
 position: absolute;
   background-color: #F78181;
