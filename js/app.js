@@ -1,3 +1,4 @@
+
 var productos=["assets/images/img-1.jpg",
 "assets/images/img-2.jpg",
 "assets/images/img-3.jpg",
@@ -31,7 +32,6 @@ function mostrar(){
 //div_mostrar.src=event.target.src;
 
 }
-
 var btn_mostrar=document.getElementById("btn_mostrar");
 btn_mostrar.addEventListener("click",ocultar);
 function ocultar(){
